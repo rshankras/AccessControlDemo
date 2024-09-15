@@ -11,6 +11,6 @@ import RSModule
 class Greetings {
     
     func displayMessage() -> String {
-        return StringExtras.makeFirstCharacterUpperCasse("welcome !!!")
+        return StringExtras.makeFirstCharacterUpperCasse(word: "welcome !!!")
     }
 }

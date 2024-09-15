@@ -9,6 +9,6 @@
 public class StringExtras {
     
     public static func makeFirstCharacterUpperCasse(word: String) -> String {
-        return word.capitalizedString
+        return word.uppercased()
     }
 }

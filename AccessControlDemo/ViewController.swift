@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let greetings = Greetings()
-        println(greetings.displayMessage())
+        print(greetings.displayMessage())
         
     }
 
